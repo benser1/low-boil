@@ -86,6 +86,11 @@ a.navbar-brand.topnav {
    background-size: cover;
  }
 
+ .dropdown-menu > li > a:hover {
+   background-color: white;
+   color: rgb(26,95,184);
+ }
+
  .intro-message {
    position: relative;
    padding-top: 20%;
