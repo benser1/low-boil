@@ -16,6 +16,31 @@
  *= require_self
  */
 
+nav.navbar.navbar-default.navbar-fixed-top.topnav {
+  background-color: rgb(26,95,184);
+}
+
+.content-section-b {
+  background-color: #F8F8F8;
+}
+
+.content-section-a {
+  background-color: #FFFFFF;
+}
+
+a.navbar-brand.topnav {
+  color: white;
+}
+
+.banner {
+
+
+  background: #70e1f5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #70e1f5 , #ffd194); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #70e1f5 , #ffd194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
  body,
  html {
    width: 100%;
@@ -35,6 +60,10 @@
 
  .topnav {
    font-size: 14px;
+ }
+
+ .navbar-default .navbar-nav > li > a {
+   color: white;
  }
 
  .lead {
@@ -109,7 +138,7 @@
 
  .content-section-a {
    padding: 50px 0;
-   background-color: #f8f8f8;
+   /*background-color: #f8f8f8;*/
  }
 
  .content-section-b {
@@ -131,7 +160,7 @@
  .banner {
    padding: 100px 0;
    color: #f8f8f8;
-   background: url(../img/banner-bg.jpg) no-repeat center center;
+   /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
    background-size: cover;
  }
 
@@ -143,6 +172,7 @@
 
  .banner ul {
    margin-bottom: 0;
+   list-style-type: none;
  }
 
  .banner-social-buttons {
