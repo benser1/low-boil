@@ -124,6 +124,9 @@ a.navbar-brand.topnav {
    .intro-divider {
      width: 100%;
    }
+   .dropdown-submenu {
+      position: relative;
+  }
  }
 
  .network-name {
