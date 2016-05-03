@@ -95,6 +95,9 @@
    .intro-divider {
      width: 100%;
    }
+   .dropdown-submenu {
+      position: relative;
+  }
  }
 
  .network-name {
