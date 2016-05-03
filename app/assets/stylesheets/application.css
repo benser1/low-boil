@@ -16,6 +16,15 @@
  *= require_self
  */
 
+.dropdown-menu > li > a {
+  color: white;
+  background: rgb(26,95,184);
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: red;
+}
+
 nav.navbar.navbar-default.navbar-fixed-top.topnav {
   background-color: rgb(26,95,184);
 }
@@ -126,6 +135,7 @@ a.navbar-brand.topnav {
    }
    .dropdown-submenu {
       position: relative;
+      background-color: rgb(26,95,184);
   }
  }
 
